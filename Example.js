@@ -25,6 +25,6 @@
       }
     }
     
-    let user = new UserBuilder('Bob').setAge(10).setPhone('123456789').build()
+    let user = new UserBuilder('Bob').setAge(10).setPhone('123456789').setAddress('123 Generic st').build()
     console.log(user)
     
