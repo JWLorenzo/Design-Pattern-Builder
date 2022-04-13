@@ -1,9 +1,3 @@
-class Address{
-    constructor(zip, street){
-      this.zip = zip
-      this.street = street
-    }
-    }
     class User{
       constructor(name){
         this.name = name
@@ -31,6 +25,6 @@ class Address{
       }
     }
     
-    let builder = new UserBuilder('Bob').setAge(10).setPhone('123456789').build()
+    let user = new UserBuilder('Bob').setAge(10).setPhone('123456789').build()
     console.log(user)
     
