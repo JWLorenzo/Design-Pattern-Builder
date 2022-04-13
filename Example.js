@@ -5,23 +5,23 @@
     }
     class UserBuilder{
       constructor(name){
-        this.user = new User(name)
+        this.result = new User(name)
       }
       setAge(age){
-        this.user.age = age
+        this.result.age = age
         return this
       }
       setPhone(phone){
-        this.user.phone = phone
+        this.result.phone = phone
         return this
       }
       setAddress(address){
-        this.user.address = address
+        this.result.address = address
         return this
       }
     
       build(){
-        return this.user
+        return this.result
       }
     }
     
